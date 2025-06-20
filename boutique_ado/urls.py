@@ -22,4 +22,5 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('accounts/', include('allauth.urls')),
     path('', lambda request: HttpResponse("Homepage is working!")),
+    path('', include('home.urls')),
 ]
