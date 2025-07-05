@@ -4,8 +4,8 @@ from .models import Product, Category
 # Register your models here.
 class ProductAdmin(admin.ModelAdmin):
     list_display = (
-        'name',
         'sku',
+        'name',
         'category',
         'price',
         'rating',
