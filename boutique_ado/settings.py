@@ -32,7 +32,7 @@ ALLOWED_HOSTS = [
     '127.0.0.0', # vs code preview
     '127.0.0.1', # vs code preview
     'localhost', # listen for stripe webhooks
-    boutique-ado-1-fb84293baae3.herokuapp.com, # heroku
+    'boutique-ado-1-fb84293baae3.herokuapp.com', # heroku
 ]
 
 
@@ -139,10 +139,6 @@ else:
             'NAME': BASE_DIR / 'db.sqlite3',
         }
     }
-
-# DATABASES = {
-#      'default': dj_database_url.parse('postgresql://neondb_owner:npg_xh8EbyD5Iejo@ep-shy-frog-a25zaifs.eu-central-1.aws.neon.tech/image_risk_silo_565026')
-#  }
 
 
 # Password validation
