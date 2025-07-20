@@ -32,6 +32,7 @@ ALLOWED_HOSTS = [
     '127.0.0.1', # vs code preview
     'localhost', # listen for stripe webhooks
     'anna-boutique-ado-v1-b3aa8e7de4b5.herokuapp.com' # heroku application
+    'boutique-ado-1-fb84293baae3.herokuapp.com', # heroku application
 ]
 
 
