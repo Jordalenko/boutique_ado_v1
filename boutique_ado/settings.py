@@ -29,10 +29,9 @@ SECRET_KEY = os.environ.get('SECRET_KEY')
 DEBUG = 'DEVELOPMENT' in os.environ
 
 ALLOWED_HOSTS = [
+    'boutique-ado-1-fb84293baae3.herokuapp.com',  # heroku application
     '127.0.0.1',   # vs code preview
     'localhost',   # listen for stripe webhooks
-    # '*.herokuapp.com',  # heroku applications
-    '*-boutique-ado-v1-*.herokuapp.com',  # heroku application
 ]
 
 
